@@ -1,0 +1,147 @@
+body {
+  box-sizing: border-box;
+  margin-bottom: 90px;
+  padding: 0;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.navbar-brand {
+  padding: 15px 55px;
+}
+.header-up {
+  height: 58px;
+  background: #333333 !important;
+  border-radius: 0 !important;
+  border-color: transparent !important;
+  margin: 0 !important;
+}
+a.main-nav-link {
+  height: auto;
+  padding: 30px 20px 30px;
+  line-height: 1;
+}
+.navbar-menu {
+  height: 85px !important;
+}
+.main-navbar-nav > li > a {
+  padding: 30px 25px;
+  color: #999999;
+  font-family: "MyriadPro-Regular";
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.main-navbar-nav > li.item-active,
+.main-navbar-nav > li:hover {
+  border-bottom: 3px solid #49cbcd;
+  background-color: white;
+}
+.main-navbar-nav > li.item-active > a,
+.main-navbar-nav > li:hover > a {
+  color: #49cbcd;
+}
+.form-search {
+  padding-top: 15px;
+}
+.navbar-icon {
+  padding-right: 30px;
+  margin: 0;
+}
+.icon-search {
+  color: #cccccc;
+}
+@font-face {
+  font-family: "PTSans-reg";
+  src: url(/fonts/PTS55F.ttf);
+}
+@font-face {
+  font-family: "OpenSansReg";
+  src: url(/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url(/fonts/MyriadPro-Regular.otf);
+}
+.footer-bs {
+  height: 415px;
+  position: absolute;
+  bottom: -415px;
+  width: 100%;
+  background-color: #666666;
+}
+.footer-bottom {
+  height: 92px;
+  background: #333333;
+  font-size: 14px;
+  font-family: PTSans-reg;
+  color: #cccccc;
+}
+.text-information-footer {
+  margin-top: 35px;
+}
+.nav-icons-footer {
+  margin-top: 22px;
+}
+.nav-icons-footer > ul > li {
+  margin-right: 0;
+}
+.icons-footer-position {
+  padding-right: 90px;
+  margin: 0 !important;
+}
+.text-tittle-h4 {
+  font-family: "OpenSansReg";
+  font-size: 22px;
+  color: #ffffff;
+  padding-bottom: 22px;
+}
+.tags {
+  padding-right: 55px;
+}
+.populr-post {
+  padding-right: 69px;
+}
+.aboute-us {
+  padding-right: 56px;
+}
+.text-section {
+  margin-top: 39px;
+}
+.text-section > .location,
+.text-section .mail,
+.text-section .phone > .text-location {
+  font-family: "PTSans-reg";
+  font-size: 14px;
+  color: #999999;
+}
+.information-data {
+  font-family: "PTSans-reg";
+  font-size: 14px;
+  color: #999999;
+}
+.text-information-h4 {
+  font-family: "PTSans-reg";
+  font-size: 14px;
+  color: #cccccc;
+}
+.float-strong {
+  color: #ffffff;
+  font-size: 20px;
+}
+.small-imgs {
+  float: left;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+.contact {
+  padding-top: 3px;
+  padding-right: 20px;
+}
+.text-location {
+  margin-bottom: 15px;
+}
+.Get-in-touch {
+  margin-bottom: 26px;
+  padding-right: 72px;
+}

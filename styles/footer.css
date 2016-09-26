@@ -1,0 +1,8 @@
+.footer-bs {
+  height: 415px;
+  position: absolute;
+  bottom: -415px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #f5f5f5;
+}
