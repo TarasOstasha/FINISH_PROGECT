@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dfd74a0-fb20-4c80-97b2-460c92004342" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboute us.html" afterPath="$PROJECT_DIR$/aboute us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog table.html" afterPath="$PROJECT_DIR$/blog table.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/blog-table.css" afterPath="$PROJECT_DIR$/styles/blog-table.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/blog-table.less" afterPath="$PROJECT_DIR$/styles/blog-table.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/brand-gallery.less" afterPath="$PROJECT_DIR$/styles/brand-gallery.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/contact-us.css" afterPath="$PROJECT_DIR$/styles/contact-us.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/contact-us.less" afterPath="$PROJECT_DIR$/styles/contact-us.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/header.less" afterPath="$PROJECT_DIR$/styles/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instructions.txt" afterPath="$PROJECT_DIR$/instructions.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/slider.css" afterPath="$PROJECT_DIR$/styles/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/slider.less" afterPath="$PROJECT_DIR$/styles/slider.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style.css" afterPath="$PROJECT_DIR$/styles/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MY FINISH PROGECT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.344828">
+            <state vertical-scroll-proportion="1.862069">
               <caret line="54" column="121" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="121" />
               <folding />
             </state>
@@ -49,18 +39,18 @@
       <file leaf-file-name="blog table.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.275862">
-              <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+            <state vertical-scroll-proportion="-63.448277">
+              <caret line="146" column="0" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog-table.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog-table.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/blog-table.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5862069">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state vertical-scroll-proportion="-13.793103">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -203,7 +193,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14348462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -436,14 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.344828">
-          <caret line="54" column="121" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/contact-us.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.965517">
@@ -468,18 +450,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog table.html">
+    <entry file="file://$PROJECT_DIR$/styles/blog-table.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862">
-          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+        <state vertical-scroll-proportion="-13.793103">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/blog-table.less">
+    <entry file="file://$PROJECT_DIR$/blog table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5862069">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state vertical-scroll-proportion="-63.448277">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="4" selection-end-line="146" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.862069">
+          <caret line="54" column="121" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="121" />
           <folding />
         </state>
       </provider>

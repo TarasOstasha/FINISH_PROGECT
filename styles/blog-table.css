@@ -13,6 +13,10 @@
   padding-bottom: 15px;
   font-size: 20px;
 }
-.first:hover {
-  background: #00cccc;
+.table-info-width {
+  background-image: url("http://brinblog.ru/wp-content/uploads/2015/05/blog.png");
+  border-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 0;
 }
