@@ -1,7 +1,7 @@
 .footer-bs {
-  height: 415px;
+  //height: 415px;
   position: absolute;
-  bottom: -415px;
+  //bottom: -415px;
   width: 100%;
   background-color: @bg-color-footer;
 }
@@ -12,15 +12,7 @@
   font-family: PTSans-reg;
   color: @footer-bottom-font-color;
 }
-//.widget {
-//  /*cursor:pointer;*/
-//  font-size: px;
-//  font-weight:bold;
-//  padding-bottom:5px;
-//}
-.footer-up {
-  //margin-top: 45px;
-}
+
 .text-information-footer {
   margin-top: 35px;
 }
@@ -91,4 +83,22 @@
 .Get-in-touch {
   margin-bottom: 26px;
   padding-right: 72px;
+}
+
+.line {
+  overflow: hidden;
+}
+.line:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 1px;
+  background: #999999;
+  border: solid #999999;
+  border-width: 0 10px;
+  width: 200px;
+}
+
+.line:after {
+  margin-right: -100%;
 }

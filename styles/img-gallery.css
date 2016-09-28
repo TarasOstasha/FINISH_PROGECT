@@ -1,0 +1,14 @@
+.pic {
+  width: 100%;
+}
+.image-gallery {
+  padding: 0;
+}
+.img-section,
+.img-section-two {
+  background: #eeeeee;
+}
+.img-section-two {
+  padding-top: 27px;
+  padding-bottom: 45px;
+}

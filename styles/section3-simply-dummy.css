@@ -1,0 +1,43 @@
+.simply-dummy-text {
+  text-align: center;
+  padding-top: 53px;
+}
+.h2-text {
+  text-transform: uppercase;
+  font-family: OpenSansSBold;
+  font-size: 30px;
+  color: #999999;
+}
+.h2-text .h2-bold {
+  color: #666666;
+}
+.simply-dummy-small-text {
+  color: #999999;
+  font-family: PTSans-reg;
+  font-size: 15px;
+  padding-top: 30px;
+}
+.icon-gallery {
+  text-align: center;
+  padding-top: 38px;
+}
+.icon-gallery .text-imac {
+  padding-top: 20px;
+}
+.icon-gallery .h3-text {
+  font-family: OpenSansSBold;
+  font-size: 20px;
+  color: #999999;
+}
+.icon-gallery .h3-text .h3-bold {
+  color: #666666;
+}
+.icon-gallery .small-text-imac {
+  padding-top: 13px;
+  font-family: PTSans-reg;
+  font-size: 14px;
+  color: #999999;
+}
+.pencil-image {
+  padding-top: 80px;
+}

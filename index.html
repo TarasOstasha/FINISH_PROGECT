@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css"/>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="styles/style.css"/>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
 </head>
 <body>
 
@@ -44,10 +43,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav main-navbar-nav">
                 <li class="item-active"><a class="main-nav-link" href="#">home<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">aboute us</a></li>
+                <li><a href="/aboute%20us.html" target="_blank">aboute us</a></li>
                 <li><a href="#">service</a></li>
                 <li><a href="#">pages</a></li>
-                <li><a href="#">blog</a></li>
+                <li><a href="/blog%20table.html" target="_blank">blog</a></li>
                 <li><a href="#">contact us</a></li>
             </ul>
             <form class="navbar-form navbar-right form-search">
@@ -60,7 +59,7 @@
     </div>
                                         <!--//SLIDER-->
 
-    <div class="container-fluid">
+    <div class="container-fluid slider-container">
         <div id="carousel" data-ride="carousel" class="carousel slide">
             <!--  ІНДИКАТОРИ СЛАЙДІВ  -->
             <ol class="carousel-indicators">
@@ -71,32 +70,34 @@
             <!--  СЛАЙДИ  -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="images/slider/bg-slider.png" alt="bg-slider">
-                    <div class="carousel-caption">
-                        <h1>welcome to our web site</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Beatae earum est iste quod recusandae repellat.
-                            Atque distinctio inventore non quod. Accusamus, assumenda!
+                    <img class="slider-image" src="images/slider/bg-slider.png" alt="bg-slider">
+                    <div class="carousel-caption info-cont">
+                        <div class="slider-text-box">
+                            <h1 class="big-text-slider">welcome to our web site</h1>
+                            <p class="text-slider">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the <br/>
+                                industry's standard dummy text ever since.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="slider-image" src="images/slider/bg-slider.png" alt="bg-slider">
+                    <div class="carousel-caption info-cont">
+                        <h1 class="big-text-slider">welcome to our web site</h1>
+                        <p class="text-slider">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the <br/>
+                            industry's standard dummy text ever since.
                         </p>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/slider/bg-slider.png" alt="bg-slider">
-                    <div class="carousel-caption">
-                        <h1>welcome to our web site</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Beatae earum est iste quod recusandae repellat.
-                            Atque distinctio inventore non quod. Accusamus, assumenda!
-                        </p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/slider/bg-slider.png" alt="bg-slider">
-                    <div class="carousel-caption">
-                        <h1>welcome to our web site</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Beatae earum est iste quod recusandae repellat.
-                            Atque distinctio inventore non quod. Accusamus, assumenda!
+                    <img class="slider-image" src="images/slider/bg-slider.png" alt="bg-slider">
+                    <div class="carousel-caption info-cont">
+                        <h1 class="big-text-slider">welcome to our web site</h1>
+                        <p class="text-slider">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the <br/>
+                            industry's standard dummy text ever since.
                         </p>
                     </div>
                 </div>
@@ -110,9 +111,11 @@
             </a>
         </div>
     </div>
+                                        <!--section 3-->
+
     <div class="container">
         <div class="simply-dummy-text">
-            <h2>Lorem ipsum is <strong>simply dummy</strong> of the printing</h2>
+            <h2 class="h2-text">Lorem ipsum is <strong class="h2-bold">simply dummy</strong> of the printing</h2>
             <p class="simply-dummy-small-text">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br/>
@@ -120,11 +123,11 @@
                 It has survived not only five centuries.
             </p>
         </div>
-        <div class="row">
-            <div class="col-xs-4">
+        <div class="row icon-gallery">
+            <div class="col-xs-4 imac-box">
                 <img src="images/section-one/iMac.png" alt="iMac"/>
                 <div class="text-imac">
-                    <h3><strong>Lorem ipsum</strong>is simply</h3>
+                    <h3 class="h3-text"><strong class="h3-bold">Lorem ipsum</strong> is simply</h3>
                     <p class="small-text-imac">
                         Lorem Ipsum is simply dummy text of the printing <br/>
                         and typesetting industry.
@@ -132,10 +135,10 @@
                     </p>
                 </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-4 pencil-image">
                 <img src="images/section-one/pencil%20with%20paper.png" alt="pencil"/>
                 <div class="text-imac">
-                    <h3><strong>Lorem ipsum</strong>is simply</h3>
+                    <h3 class="h3-text"><strong class="h3-bold">Lorem ipsum</strong> is simply</h3>
                     <p class="small-text-imac">
                         Lorem Ipsum is simply dummy text of the printing <br/>
                         and typesetting industry.
@@ -147,7 +150,7 @@
             <div class="col-xs-4">
                 <img src="images/section-one/photo.png" alt="pic"/>
                 <div class="text-imac">
-                    <h3><strong>Lorem ipsum</strong>is simply</h3>
+                    <h3 class="h3-text"><strong class="h3-bold">Lorem ipsum</strong> is simply</h3>
                     <p class="small-text-imac">
                         Lorem Ipsum is simply dummy text of the printing <br/>
                         and typesetting industry.
@@ -156,76 +159,97 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-4">
-                <div class="thumbnail">
-                    <img src="images/section-two(gallery)/1.png" alt="car">
-                    <div class="caption">
-                        <h3>Lorem Ipsum is simply</h3>
-                        <p>Lorem Ipsum is simply dummy text of the</p>
+    </div>
+                                        <!--section gallery-->
+
+    <div class="container-fluid gallery-fluid">
+        <div class="container">
+            <div class="row img-section">
+                <div class="col-xs-4">
+                    <div class="thumbnail image-gallery">
+                        <img class="pic" src="images/section-two(gallery)/1.png" alt="car">
+                        <div class="caption text-img-gal">
+                            <h3 class="h3-text">Lorem Ipsum is simply</h3>
+                            <p class="small-text-gal">Lorem Ipsum is simply dummy text of the <br/>
+                                printing and typesetting of the
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail image-gallery">
+                        <img class="pic" src="images/section-two(gallery)/2.png" alt="three">
+                        <div class="caption text-img-gal">
+                            <h3 class="h3-text">Lorem Ipsum is simply</h3>
+                            <p class="small-text-gal">Lorem Ipsum is simply dummy text of the <br/>
+                                printing and typesetting of the
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail image-gallery">
+                        <img class="pic" src="images/section-two(gallery)/3.png" alt="fields">
+                        <div class="caption text-img-gal">
+                            <h3 class="h3-text">Lorem Ipsum is simply</h3>
+                            <p class="small-text-gal">Lorem Ipsum is simply dummy text of the <br/>
+                                printing and typesetting of the
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4">
-                <div class="thumbnail">
-                    <img src="images/section-two(gallery)/2.png" alt="three">
-                    <div class="caption">
-                        <h3>Lorem Ipsum is simply</h3>
-                        <p>Lorem Ipsum is simply dummy text of the</p>
+            <div class="row img-section-two">
+                <div class="col-xs-4">
+                    <div class="thumbnail image-gallery">
+                        <img class="pic" src="images/section-two(gallery)/4.png" alt="">
+                        <div class="caption text-img-gal">
+                            <h3 class="h3-text">Lorem Ipsum is simply</h3>
+                            <p class="small-text-gal">Lorem Ipsum is simply dummy text of the <br/>
+                                printing and typesetting of the
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-4">
-                <div class="thumbnail">
-                    <img src="images/section-two(gallery)/3.png" alt="fields">
-                    <div class="caption">
-                        <h3>Lorem Ipsum is simply</h3>
-                        <p>Lorem Ipsum is simply dummy text of the</p>
+                <div class="col-xs-4">
+                    <div class="thumbnail image-gallery">
+                        <img class="pic" src="images/section-two(gallery)/5.png" alt="wheat">
+                        <div class="caption text-img-gal">
+                            <h3 class="h3-text">Lorem Ipsum is simply</h3>
+                            <p class="small-text-gal">Lorem Ipsum is simply dummy text of the <br/>
+                                printing and typesetting of the
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail image-gallery">
+                        <img class="pic" src="images/section-two(gallery)/6.png" alt="fruits">
+                        <div class="caption text-img-gal">
+                            <h3 class="h3-text">Lorem Ipsum is simply</h3>
+                            <p class="small-text-gal">Lorem Ipsum is simply dummy text of the <br/>
+                                printing and typesetting of the
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-4">
-                <div class="thumbnail">
-                    <img src="images/section-two(gallery)/4.png" alt="">
-                    <div class="caption">
-                        <h3>Lorem Ipsum is simply</h3>
-                        <p>Lorem Ipsum is simply dummy text of the</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4">
-                <div class="thumbnail">
-                    <img src="images/section-two(gallery)/5.png" alt="wheat">
-                    <div class="caption">
-                        <h3>Lorem Ipsum is simply</h3>
-                        <p>Lorem Ipsum is simply dummy text of the</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-4">
-                <div class="thumbnail">
-                    <img src="images/section-two(gallery)/6.png" alt="fruits">
-                    <div class="caption">
-                        <h3>Lorem Ipsum is simply</h3>
-                        <p>Lorem Ipsum is simply dummy text of the</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+                                                    <!--BRAND GALLERY-->
+    <div class="container">
         <div class="row brands">
-            <div class="col-xs-3">
-                <img src="images/section%20three/Layer%2048.png" alt="drefffle"/>
+            <div class="col-xs-3 icons-brand-box">
+                <a href="#"><img class="drefffle" src="images/section%20three/Layer%2048.png" alt="drefffle"/></a>
+            </div>
+            <div class="col-xs-3 icons-brand-box">
+                <a href="#"><img class="leopards" src="images/section%20three/Layer%2046.png" alt="leopards"/></a>
             </div>
             <div class="col-xs-3">
-                <img src="images/section%20three/Layer%2046.png" alt="leopards"/>
+                <a href="#"><img class="behance" src="images/section%20three/Layer%2047.png" alt="behance"/></a>
             </div>
             <div class="col-xs-3">
-                <img src="images/section%20three/Layer%2047.png" alt="behance"/>
-            </div>
-            <div class="col-xs-3">
-                <img src="images/section%20three/Layer%2049.png" alt="puma"/>
+                <a href="#"><img class="puma" src="images/section%20three/Layer%2049.png" alt="puma"/></a>
             </div>
         </div>
     </div>
@@ -240,7 +264,7 @@
                         Lorem Ipsum is simply dummy
                         text of the printing.
                     </p>
-                    <div class="date-clock">
+                    <div class="date-clock line">
                         <img class="small-imgs" src="/images/footer/1.png" alt="clock"/>
                         <p class="information-data">
                             25-September 2013
@@ -326,6 +350,8 @@
         </div>
     </div>
 </div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
 

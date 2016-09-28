@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   margin-bottom: 90px;
-  padding: 0;
+  padding: 0 !important;
 }
 html {
   position: relative;
@@ -21,9 +21,6 @@ a.main-nav-link {
   height: auto;
   padding: 30px 20px 30px;
   line-height: 1;
-}
-.navbar-menu {
-  height: 85px !important;
 }
 .main-navbar-nav > li > a {
   padding: 30px 25px;
@@ -63,10 +60,12 @@ a.main-nav-link {
   font-family: "MyriadPro-Regular";
   src: url(/fonts/MyriadPro-Regular.otf);
 }
+@font-face {
+  font-family: "OpenSansSBold";
+  src: url(/fonts/OpenSans-Bold.ttf);
+}
 .footer-bs {
-  height: 415px;
   position: absolute;
-  bottom: -415px;
   width: 100%;
   background-color: #666666;
 }
@@ -144,4 +143,198 @@ a.main-nav-link {
 .Get-in-touch {
   margin-bottom: 26px;
   padding-right: 72px;
+}
+.line {
+  overflow: hidden;
+}
+.line:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 1px;
+  background: #999999;
+  border: solid #999999;
+  border-width: 0 10px;
+  width: 200px;
+}
+.line:after {
+  margin-right: -100%;
+}
+.slider-container {
+  padding-left: 0;
+  padding-right: 0;
+  width: 1349px;
+}
+.slider-container .carousel-indicators {
+  display: none;
+}
+.slider-container .slider-image {
+  width: 100%;
+}
+.slider-container .info-cont {
+  top: 30%;
+}
+.slider-container .info-cont .big-text-slider {
+  font-family: OpenSansSBold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.slider-container .info-cont .text-slider {
+  font-family: PTSans-reg;
+  font-size: 15px;
+  margin-top: 17px;
+}
+.slider-container .leftbtnslider {
+  position: absolute;
+  top: 48%;
+  left: 130px;
+}
+.slider-container .rightbtnslider {
+  position: absolute;
+  top: 50%;
+  right: 130px;
+}
+.simply-dummy-text {
+  text-align: center;
+  padding-top: 53px;
+}
+.h2-text {
+  text-transform: uppercase;
+  font-family: OpenSansSBold;
+  font-size: 30px;
+  color: #999999;
+}
+.h2-text .h2-bold {
+  color: #666666;
+}
+.simply-dummy-small-text {
+  color: #999999;
+  font-family: PTSans-reg;
+  font-size: 15px;
+  padding-top: 30px;
+}
+.icon-gallery {
+  text-align: center;
+  padding-top: 38px;
+}
+.icon-gallery .text-imac {
+  padding-top: 20px;
+}
+.icon-gallery .h3-text {
+  font-family: OpenSansSBold;
+  font-size: 20px;
+  color: #999999;
+}
+.icon-gallery .h3-text .h3-bold {
+  color: #666666;
+}
+.icon-gallery .small-text-imac {
+  padding-top: 13px;
+  font-family: PTSans-reg;
+  font-size: 14px;
+  color: #999999;
+}
+.pencil-image {
+  height: 380px;
+  padding-top: 80px;
+  position: relative;
+}
+.pencil-image:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 165px;
+  border: 30px solid #eeeeee;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.pic {
+  width: 100%;
+}
+.image-gallery {
+  padding: 0;
+}
+.text-img-gal {
+  padding-top: 20px;
+  padding-left: 20px !important;
+}
+.text-img-gal .h3-text {
+  font-size: 14px;
+  font-family: OpenSansSBold;
+  color: #666666;
+  margin-bottom: 0;
+}
+.text-img-gal .small-text-gal {
+  padding-top: 8px;
+  font-family: PTSans-reg;
+  font-size: 14px;
+  color: #999999;
+}
+.img-section-two {
+  padding-top: 27px;
+  padding-bottom: 45px;
+}
+.gallery-fluid {
+  background: #eeeeee;
+}
+.icons-brand-box {
+  padding-left: 0;
+  margin-top: 46px;
+  margin-bottom: 60px;
+}
+.leopards {
+  padding-left: 50px;
+}
+.behance {
+  padding-top: 70px;
+  padding-left: 77px;
+}
+.puma {
+  padding-top: 35px;
+  padding-left: 127px;
+}
+.contact-us-h3 {
+  text-transform: uppercase;
+  font-family: OpenSansReg;
+  font-size: 24px;
+  color: #999999;
+  float: left;
+  padding-right: 13px;
+}
+.phone-img {
+  width: 50px;
+  height: 50px;
+}
+.contact-us {
+  padding: 10px;
+}
+.sendbtn {
+  font-family: OpenSansReg;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #00cccc;
+  border: 1px solid #cccccc;
+}
+.sendbtn:hover {
+  background: #666666;
+}
+.location-text {
+  font-family: OpenSansReg;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #999999;
+  float: left;
+  padding-right: 10px;
+}
+.map-box .icon-location-map {
+  padding-top: 20px;
+}
+.img-maps {
+  border: 1px solid #999999;
+  width: 100%;
+  min-height: 300px;
+}
+.main-contact-us {
+  margin: 20px 0;
 }

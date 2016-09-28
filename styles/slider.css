@@ -1,0 +1,34 @@
+.slider-container {
+  padding-left: 0;
+  padding-right: 0;
+  width: 1349px;
+}
+.slider-container .carousel-indicators {
+  display: none;
+}
+.slider-container .slider-image {
+  width: 100%;
+}
+.slider-container .info-cont {
+  top: 30%;
+}
+.slider-container .info-cont .big-text-slider {
+  font-family: OpenSansSBold;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.slider-container .info-cont .text-slider {
+  font-family: PTSans-reg;
+  font-size: 15px;
+  margin-top: 17px;
+}
+.slider-container .leftbtnslider {
+  position: absolute;
+  top: 48%;
+  left: 130px;
+}
+.slider-container .rightbtnslider {
+  position: absolute;
+  top: 50%;
+  right: 130px;
+}
