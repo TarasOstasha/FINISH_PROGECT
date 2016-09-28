@@ -1,7 +1,8 @@
 .slider-container {
   padding-left: 0;
   padding-right: 0;
-  width: 1349px;
+  max-width: 1349px;
+  width: 100%;
 }
 .slider-container .carousel-indicators {
   display: none;

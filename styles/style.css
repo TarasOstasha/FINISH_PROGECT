@@ -40,6 +40,7 @@ a.main-nav-link {
 }
 .form-search {
   padding-top: 15px;
+  width: 300px;
 }
 .navbar-icon {
   padding-right: 30px;
@@ -163,7 +164,8 @@ a.main-nav-link {
 .slider-container {
   padding-left: 0;
   padding-right: 0;
-  width: 1349px;
+  max-width: 1349px;
+  width: 100%;
 }
 .slider-container .carousel-indicators {
   display: none;
@@ -299,15 +301,11 @@ a.main-nav-link {
   font-family: OpenSansReg;
   font-size: 24px;
   color: #999999;
-  float: left;
-  padding-right: 13px;
+  margin: 10px 0 20px;
 }
 .phone-img {
-  width: 50px;
-  height: 50px;
-}
-.contact-us {
-  padding: 10px;
+  color: #00cccc;
+  font-size: 20px;
 }
 .sendbtn {
   font-family: OpenSansReg;
@@ -324,11 +322,7 @@ a.main-nav-link {
   font-size: 24px;
   text-transform: uppercase;
   color: #999999;
-  float: left;
-  padding-right: 10px;
-}
-.map-box .icon-location-map {
-  padding-top: 20px;
+  margin: 10px 0 20px;
 }
 .img-maps {
   border: 1px solid #999999;
@@ -337,4 +331,22 @@ a.main-nav-link {
 }
 .main-contact-us {
   margin: 20px 0;
+}
+.table-inform {
+  margin: 20px 0;
+}
+.blog-users {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: OpenSansReg;
+  font-size: 24px;
+  color: #333333;
+}
+.blog-user-icon {
+  color: #00cccc;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.first:hover {
+  background: #00cccc;
 }
