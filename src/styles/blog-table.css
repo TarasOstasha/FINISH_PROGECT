@@ -1,0 +1,15 @@
+.table-inform {
+  margin: 20px 0;
+}
+.blog-users {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: OpenSansReg;
+  font-size: 24px;
+  color: #333333;
+}
+.blog-user-icon {
+  color: #00cccc;
+  padding-bottom: 15px;
+  font-size: 20px;
+}

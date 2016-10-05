@@ -1,0 +1,24 @@
+{
+  "name": "my-finish-prog-gulp",
+  "description": "my finish work",
+  "main": "index.js",
+  "authors": [
+    "taras_ostasha"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower",
+    "test",
+    "tests",
+    "dist/bower"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "normalize-css": "normalize.css#^4.2.0",
+    "jQuery": "^3.1.1"
+  }
+}
