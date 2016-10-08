@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/style.css"/> -->
 </head>
 <body>
-                                                    <!--H E A D E R-->
+                                                        <!--H E A D E R-->
 <nav class="navbar navbar-default header-up">
     <div class="container">
         <div class="navbar-header">
@@ -28,13 +28,13 @@
             <li><a href="#"><img src="images/icon-twitter.png" alt="twit"/></a></li>
             <li><a href="#"><img src="images/icon-IN.png" alt="IN"/></a></li>
         </ul>
-    </div><!-- /.container-fluid -->
+    </div>
 </nav>
 
 
-                                                    <!-- -->
-                                                    <!--NAV-MENU-->
-                                                    <!-- -->
+                                                <!-- -->
+                                                <!--NAV-MENU-->
+                                                <!-- -->
 
 <div class="container nav-menu navbar-menu">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -43,8 +43,8 @@
             <li><a href="#">aboute us</a></li>
             <li><a href="#">service</a></li>
             <li><a href="#">pages</a></li>
-            <li><a href="/blog%20table.html">blog</a></li>
-            <li><a href="#">contact us</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="/aboute_us.html" target="_blank">contact us</a></li>
         </ul>
         <form class="navbar-form navbar-right form-search">
             <div class="form-group has-feedback">
@@ -54,43 +54,100 @@
         </form>
     </div>
 </div>
+                                                        <!--TABLE-->
 
-                                                    <!--Forma-->
-<div class="container">
-    <div class="row main-contact-us">
-        <div class="col-md-4 clearfix">
-            <div class="form-send">
-                <div class="contact-us">
-                    <h3 class="contact-us-h3">contact us <span class="glyphicon glyphicon-phone-alt phone-img" aria-hidden="true"></span></h3>
+    <div class="container">
+    <h3 class="blog-users">blog user's <span class="glyphicon glyphicon-user blog-user-icon" aria-hidden="true"></span></h3>
+        <table class="table table-hover table-bordered table-inform" id="table-blog">
+            <thead>
+            <tr class="info">
+                <th></th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row"">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
 
-                </div>
-                <form form action="mailto:tony_joss@mail.ru" method=POST class="form_s center-block">
-                    <div class="form-group">
-                        <input type="text" class="form-control" required="required" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" required="required" placeholder="E-mail">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" required="required" placeholder="Phone">
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block sendbtn">Send a request</button>
-                </form>
-            </div>
-        </div>
-        <div class="col-md-8">
-            <div class="map-box">
-                <h3 class="location-text">our location <span class="glyphicon glyphicon-map-marker phone-img" aria-hidden="true"></span></h3>
 
-                <div id="map">
-                    <iframe class="img-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d647.1130886542715!2d25.61658163473488!3d49.55148740033741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1475026102609"  allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
-                                                    <!----------- Footer ------------>
+
+                                        <!----------- Footer ------------>
 
 <div class="footer-bs">
     <div class="container">
@@ -188,8 +245,8 @@
 </div>
 </div>
 <script src="js/bower.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-<script src="scripts/map.js"></script> -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script> -->
 </body>
 </html>

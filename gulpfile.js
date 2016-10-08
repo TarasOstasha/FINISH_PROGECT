@@ -23,7 +23,10 @@ gulp.task("less", function() {
 });
 
 gulp.task("bower-css", function() {
-	return gulp.src("src/bower/bootstrap/dist/css/bootstrap.css")
+	return gulp.src([
+			"src/bower/bootstrap/dist/css/bootstrap.css",
+			"src/bower/toastr/toastr.min.css"
+		])
 	.pipe(nano())
 	.pipe(concat("bower.min.css"))
 	.pipe(gulp.dest('dist/css'));
@@ -53,12 +56,27 @@ gulp.task("html", function() {
 		.pipe(gulp.dest("dist"));
 });
 
+gulp.task("data", function() {
+	return gulp.src("src/data/**/*.json")
+		.pipe(gulp.dest("dist/data"))
+});
+
 gulp.task('bower-js', function() {
 	return gulp.src([
-		"src/bower/bootstrap/dist/js/bootstrap.js"		
+		"src/bower/bootstrap/dist/js/bootstrap.js",
+		"src/bower/toastr/toastr.js"		
 	])
 	.pipe(addSrc.prepend("src/bower/jquery/dist/jquery.js"))
 	.pipe(concat('bower.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+
+gulp.task('main-js', function() {
+	return gulp.src([
+		"src/scripts/main.js"		
+	])
+	.pipe(concat('main.min.js'))
 	.pipe(uglify())
 	.pipe(gulp.dest('dist/js'));
 });
@@ -72,12 +90,14 @@ gulp.task('browser-sync', function() {
 	});
 });
 
-gulp.task('watch', ['browser-sync', 'less'], function() {
+gulp.task('watch', ['browser-sync', 'less', 'main-js'], function() {
 	gulp.watch('src/styles/**/*.less', ['less']);
 	gulp.watch('src/*.html', ['html']);
 	gulp.watch('dist/*.html', browserSync.reload);
+	gulp.watch('src/scripts/*.js', ['main-js']);
+	gulp.watch('dist/js/*.js', browserSync.reload);
 	// gulp.watch('src/scripts/*.js', ['js'-тут має бути назва таску]);
 	// gulp.watch('dist/*тут вказати папку де буде мій скрипт.js', browserSync.reload); - тут і зверху в масиві має бути мій файл js
 });
 
-gulp.task('default', ['html', 'images', 'less', 'watch', 'bower-js', 'fonts', 'bower-css']);
+gulp.task('default', ['html', 'images', 'less', 'watch', 'bower-js', 'fonts', 'bower-css', 'main-js']);
