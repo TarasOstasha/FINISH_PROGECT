@@ -25,7 +25,8 @@ gulp.task("less", function() {
 gulp.task("bower-css", function() {
 	return gulp.src([
 			"src/bower/bootstrap/dist/css/bootstrap.css",
-			"src/bower/toastr/toastr.min.css"
+			"src/bower/toastr/toastr.min.css",
+			"src/bower/datatables.net-bs/css/dataTables.bootstrap.css"
 		])
 	.pipe(nano())
 	.pipe(concat("bower.min.css"))
@@ -64,7 +65,10 @@ gulp.task("data", function() {
 gulp.task('bower-js', function() {
 	return gulp.src([
 		"src/bower/bootstrap/dist/js/bootstrap.js",
-		"src/bower/toastr/toastr.js"		
+		"src/bower/toastr/toastr.js",
+		"src/bower/datatables.net/js/jquery.dataTables.js",
+		"src/bower/datatables.net-bs/js/dataTables.bootstrap.js"
+				
 	])
 	.pipe(addSrc.prepend("src/bower/jquery/dist/jquery.js"))
 	.pipe(concat('bower.min.js'))
@@ -74,7 +78,8 @@ gulp.task('bower-js', function() {
 
 gulp.task('main-js', function() {
 	return gulp.src([
-		"src/scripts/main.js"		
+		"src/scripts/main.js",
+		"src/scripts/blog.js"
 	])
 	.pipe(concat('main.min.js'))
 	.pipe(uglify())
