@@ -106,4 +106,4 @@ gulp.task('watch', ['browser-sync', 'less', 'main-js'], function() {
 	// gulp.watch('dist/*тут вказати папку де буде мій скрипт.js', browserSync.reload); - тут і зверху в масиві має бути мій файл js
 });
 
-gulp.task('default', ['html', 'images', 'less', 'watch', 'bower-js', 'fonts', 'bower-css', 'main-js']);
+gulp.task('default', ['html', 'images', 'less', 'watch', 'bower-js', 'fonts', 'bower-css', 'main-js', 'data']);
