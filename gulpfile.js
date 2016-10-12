@@ -79,7 +79,8 @@ gulp.task('bower-js', function() {
 gulp.task('main-js', function() {
 	return gulp.src([
 		"src/scripts/main.js",
-		"src/scripts/blog.js"
+		"src/scripts/blog.js",
+		"src/scripts/scrollbtn.js"
 	])
 	.pipe(concat('main.min.js'))
 	.pipe(uglify())
