@@ -35,12 +35,12 @@ gulp.task("bower-css", function() {
 
 gulp.task("images", function() {
 	return gulp.src("./src/images/**/*.{jpg,png}")
-		.pipe(imagemin({
-			interlaced: true,
-			progressive: true,
-			svgoPlugins: [{removeViewBox: false}],
-			une: [pngquant()]
-		}))
+		// .pipe(imagemin({
+		// 	interlaced: true,
+		// 	progressive: true,
+		// 	svgoPlugins: [{removeViewBox: false}],
+		// 	une: [pngquant()]
+		// }))
 		.pipe(gulp.dest("dist/images"))
 });
 
